@@ -1,0 +1,95 @@
+body {
+  background-color: #1b244a;
+  margin: 0;
+}
+
+.reset {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.btn-reset {
+  border-radius: 5px;
+  font-family: Verdana;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  font-family: Verdana;
+  color: #eee;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.points {
+  font-family: Wallpoet;
+  width: 200px;
+  height: 120px;
+  color: #f94f6d;
+  background-color: #000;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 127px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+input,
+.btn-foul {
+  color: #9aabd8;
+  font-size: 18px;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+h4,
+.teamfoul {
+  text-align: center;
+}
+
+h4 {
+  font-family: Verdana;
+  color: #eee;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+
+.teamfouls-container {
+  text-align: center;
+}
+
+.teamfoul {
+  font-family: Wallpoet;
+  margin: auto;
+  width: 130px;
+  height: px;
+  color: #f94f6d;
+  background-color: #000;
+  font-size: 90px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

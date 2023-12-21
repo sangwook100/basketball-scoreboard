@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Sono:wght@400;600;700&family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="reset">
+      <button class="btn-reset" onClick="window.location.reload()">
+        New Game
+      </button>
+    </div>
+    <div class="container">
+      <div>
+        <h3>HOME</h3>
+        <div id="home-points" class="points">0</div>
+        <div class="buttons-container">
+          <input
+            id="home-plus-one"
+            type="button"
+            onclick="addPlusOneToHome()"
+            value="+1"
+          />
+          <input
+            id="home-plus-two"
+            type="button"
+            onclick="addPlusTwoToHome()"
+            value="+2"
+          />
+          <input
+            id="home-plus-three"
+            type="button"
+            onclick="addPlusThreeToHome()"
+            value="+3"
+          />
+        </div>
+        <div class="teamfouls-container">
+          <h4>Team Fouls</h4>
+          <div id="home-team-foul" class="teamfoul">0</div>
+          <button class="btn-foul" onclick="addPlusOneHomeFoul()">+1</button>
+        </div>
+      </div>
+      <div>
+        <h3>GUEST</h3>
+        <div id="guest-points" class="points">0</div>
+        <div class="buttons-container">
+          <input
+            id="guest-plus-one"
+            type="button"
+            onclick="addPlusOneToGuest()"
+            value="+1"
+          />
+          <input
+            id="guest-plus-two"
+            type="button"
+            onclick="addPlusTwoToGuest()"
+            value="+2"
+          />
+          <input
+            id="guest-plus-three"
+            type="button"
+            onclick="addPlusThreeToGuest()"
+            value="+3"
+          />
+        </div>
+        <div class="teamfouls-container">
+          <h4>Team Fouls</h4>
+          <div id="guest-team-foul" class="teamfoul">0</div>
+          <button class="btn-foul" onclick="addPlusOneGuestFoul()">+1</button>
+        </div>
+      </div>
+    </div>
+    <div class="reset">
+      <button class="btn-reset" onClick= "resetFouls()">
+        Reset Fouls
+      </button>
+    <script src="index.js"></script>
+  </body>
+</html>
